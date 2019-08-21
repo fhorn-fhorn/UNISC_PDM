@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UNISC_PDM</string>
+    <string name="btnTextAula1">Aula 1</string>
+    <string name="btnTextAula2">Aula 2</string>
+    <string name="btnTextAula3">Aula 3</string>
+    <string name="btnTextAula3Questao1">Questão 1</string>
+    <string name="btnTextAula3Questao2">Questao 2</string>
+    <string name="btnTextAula3Questao3">Questao 3</string>
+    <string name="btnTextAula3Questao4">Questao 4</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula3MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao1"
+        android:id="@+id/btnAula3Questao1"
+        android:onClick="btnAula3Questao1Click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao2"
+        android:id="@+id/btnAula3Questao2"
+        android:onClick="btnAula3Questao2Click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3"
+        android:id="@+id/btnAula3Questao3"
+        android:onClick="btnAula3Questao3Click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao4"
+        android:id="@+id/btnAula3Questao4"
+        android:onClick="btnAula3Questao4Click"
+        />
+
+</LinearLayout>

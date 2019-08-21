@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.m35725.unisc_pdm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Aula3Questao1Activity">
+            android:label="Poupança"
+        </activity>
+        <activity android:name=".Aula3MainActivity" />
+        <activity android:name=".Aula2ResultActivity" />
+        <activity android:name=".Aula2MainActivity" />
+        <activity android:name=".Aula1MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
