@@ -17,7 +17,6 @@
         android:id="@+id/txtViewValorInicial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10pt"
         android:text="@string/txtViewAula3Questao1ValorInicial"
         />
 
@@ -29,7 +28,57 @@
         android:layout_height="wrap_content"
         />
 
+    <TextView
+        android:id="@+id/txtViewAplicacaoMensal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula3Questao1AplicacaoMensal"
+        />
 
+    <EditText
+        android:id="@+id/edtViewAplicacaoMensal"
+        android:inputType="numberDecimal"
+        android:hint="@string/edtViewAula3Questao1AplicacaoMensal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
+    <TextView
+        android:id="@+id/txtViewTempoAplicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula3Questao1TempoAplicacao"
+        />
+
+    <EditText
+        android:id="@+id/edtViewTempoAplicacao"
+        android:inputType="numberDecimal"
+        android:hint="@string/edtViewAula3Questao1TempoAplicacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/txtViewTaxa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula3Questao1Taxa"
+        />
+
+    <EditText
+        android:id="@+id/edtViewTaxa"
+        android:inputType="numberDecimal"
+        android:hint="@string/edtViewAula3Questao1Taxa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnViewAula3Questao1Calcular"
+        android:textColor="@color/BtnAula3Questao1TaxaTextColor"
+        android:background="@color/BtnAula3Questao1TaxaBackgroundColor"
+        />
 
 </LinearLayout>

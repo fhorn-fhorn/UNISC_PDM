@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">UNISC_PDM</string>
-    <string name="ActiorBarTitleAula3Questao1">POUPANÇA</string>
 
     <string name="btnTextAula1">Aula 1</string>
 
@@ -8,9 +7,16 @@
 
     <string name="btnTextAula3">Aula 3</string>
     <string name="btnTextAula3Questao1">Questão 1</string>
+    <string name="ActiorBarTitleAula3Questao1">POUPANÇA</string>
     <string name="txtViewAula3Questao1ValorInicial">Valor Inicial:</string>
     <string name="edtViewAula3Questao1ValorInicial">Valor em R$. Ex.: 1700.00</string>
-
+    <string name="txtViewAula3Questao1AplicacaoMensal">Aplicação Mensal:</string>
+    <string name="edtViewAula3Questao1AplicacaoMensal">Ex.: 100.00</string>
+    <string name="txtViewAula3Questao1TempoAplicacao">Tempo Aplicação:</string>
+    <string name="edtViewAula3Questao1TempoAplicacao">Em meses</string>
+    <string name="txtViewAula3Questao1Taxa">Taxa:</string>
+    <string name="edtViewAula3Questao1Taxa">Ex.: 0.02</string>
+    <string name="btnViewAula3Questao1Calcular">Calcular</string>
 
     <string name="btnTextAula3Questao2">Questao 2</string>
     <string name="btnTextAula3Questao3">Questao 3</string>

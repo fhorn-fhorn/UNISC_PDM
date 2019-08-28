@@ -3,5 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
     <color name="Aula3Questao1ActionBarBackground">#FAB1A7</color>
+    <color name="BtnAula3Questao1TaxaTextColor">#000000</color>
+    <color name="BtnAula3Questao1TaxaBackgroundColor">#0000FF</color>
+
 </resources>
