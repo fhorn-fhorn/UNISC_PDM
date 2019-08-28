@@ -62,7 +62,7 @@ public class Aula4MainActivity extends AppCompatActivity {
         if (requestCode == RESULT_CODE_CAMERA && resultCode == RESULT_OK) {
             Toast.makeText(this, "RESULT_CODE_CAMERA: OK", Toast.LENGTH_SHORT).show();
         }
-
+        
         //RETORNO "ACTION_PICK"
         if (requestCode == RESULT_CODE_SELECIONAR_CONTATO2 && resultCode == RESULT_OK) {
             Uri contactData = data.getData();
