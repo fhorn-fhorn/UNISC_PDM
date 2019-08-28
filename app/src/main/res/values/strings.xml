@@ -1,10 +1,31 @@
 <resources>
     <string name="app_name">UNISC_PDM</string>
+    <string name="ActiorBarTitleAula3Questao1">POUPANÇA</string>
+
     <string name="btnTextAula1">Aula 1</string>
+
     <string name="btnTextAula2">Aula 2</string>
+
     <string name="btnTextAula3">Aula 3</string>
     <string name="btnTextAula3Questao1">Questão 1</string>
+    <string name="txtViewAula3Questao1ValorInicial">Valor Inicial:</string>
+    <string name="edtViewAula3Questao1ValorInicial">Valor em R$. Ex.: 1700.00</string>
+
+
     <string name="btnTextAula3Questao2">Questao 2</string>
     <string name="btnTextAula3Questao3">Questao 3</string>
     <string name="btnTextAula3Questao4">Questao 4</string>
+
+    <string name="btnTextAula4">Aula 4</string>
+    <string name="btnAula4Contatos">CONTATOS</string>
+    <string name="btnAula4Contatos2">CONTATOS 2</string>
+    <string name="btnAula4Call">CALL</string>
+    <string name="btnAula4Web">WEB</string>
+    <string name="btnAula4PicIt">PIC IT</string>
+
+    <string name="txtViewAula4Contato">Contato</string>
+    <string name="txtViewAula4NomeContato">Nome:</string>
+    <string name="txtViewAula4TelefoneContato">Telefone:</string>
+
+
 </resources>

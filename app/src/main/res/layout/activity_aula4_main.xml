@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula4MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula4Contatos"
+        android:id="@+id/btnAula4Contatos"
+        android:onClick="btnAula4ContatosClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula4Contatos2"
+        android:id="@+id/btnAula4Contatos2"
+        android:onClick="btnAula4Contatos2Click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula4Call"
+        android:id="@+id/btnAula4Call"
+        android:onClick="btnAula4CallClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula4Web"
+        android:id="@+id/btnAula4Web"
+        android:onClick="btnAula4WebClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula4PicIt"
+        android:id="@+id/btnAula4PicIt"
+        android:onClick="btnAula4PicItClick"
+        />
+
+    <TextView
+        android:id="@+id/txtViewContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula4Contato"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txtViewNomeContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula4NomeContato"
+        />
+
+    <TextView
+        android:id="@+id/txtViewTelefoneContato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula4TelefoneContato"
+        />
+
+    <ImageView
+        android:id="@+id/imgViewAula4ImagemCapturada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_poupanca_icon"
+        />
+
+</LinearLayout>

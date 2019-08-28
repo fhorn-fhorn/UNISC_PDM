@@ -28,4 +28,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(MainActivity.this, Aula3MainActivity.class);
         startActivity(intent);
     }
+
+    public void btnAula4Click(View view) {
+        Intent intent= new Intent(MainActivity.this, Aula4MainActivity.class);
+        startActivity(intent);
+    }
+
 }

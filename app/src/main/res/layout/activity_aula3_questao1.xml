@@ -4,7 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Aula3Questao1Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_foreground"
+        />
+
+    <TextView
+        android:id="@+id/txtViewValorInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10pt"
+        android:text="@string/txtViewAula3Questao1ValorInicial"
+        />
+
+    <EditText
+        android:id="@+id/edtValorInicial"
+        android:inputType="numberDecimal"
+        android:hint="@string/edtViewAula3Questao1ValorInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
 
 
 
