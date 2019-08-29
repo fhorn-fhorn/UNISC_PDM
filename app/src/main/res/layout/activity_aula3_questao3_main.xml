@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula3Questao3MainActivity">
+
+    <TextView
+        android:id="@+id/txtViewAula3Questao3NroQuestao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula3Questao3NroQuestao"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/quiz_transito_banner_foreground"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/placa_estreitamente_pista"
+        />
+
+    <TextView
+        android:id="@+id/txtViewAula3Questao3Pergunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtViewAula3Questao3Pergunta"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3Resposta1"
+        android:textColor="@color/Aula3Questao3Preto"
+        android:background="@color/Aula3Questao3Verde"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3Resposta2"
+        android:textColor="@color/Aula3Questao3Preto"
+        android:background="@color/Aula3Questao3Verde"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3Resposta3"
+        android:textColor="@color/Aula3Questao3Preto"
+        android:background="@color/Aula3Questao3Verde"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3Resposta4"
+        android:textColor="@color/Aula3Questao3Preto"
+        android:background="@color/Aula3Questao3Verde"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnTextAula3Questao3ProximaPergunta"
+        android:textColor="@color/Aula3Questao3Preto"
+        android:background="@color/Aula3Questao3Cinza"
+        android:layout_marginBottom="5dp"
+        />
+
+</LinearLayout>

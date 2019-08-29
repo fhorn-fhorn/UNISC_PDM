@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    tools:context=".Aula3Questao2Activity">
+
+    <TableRow>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/linha_de_onibus"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/cias_aereas"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/guia_de_bairros"
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/pontos_turisticos"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/telefones_uteis"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/pracas_de_taxi"
+            />
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/eventos_culturais"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/datas_comemorativas"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/fale_com_a_prefeitura"
+            />
+    </TableRow>
+
+    <!--
+    <TableRow android:background="@color/Aula3Questao2Vermelho" >
+        <TextView android:text="Row 2 column 1" />
+        <TextView android:text="Row 2 column 2" />
+        <TextView android:text="Row 2 column 3" />
+    </TableRow>
+
+    <TableRow android:background="@color/Aula3Questao2Verde" >
+        <TextView
+            android:layout_weight="1"
+            android:text="Row 3 column 1" />
+        <TextView
+            android:layout_weight="1"
+            android:text="Row 3 column 2" />
+    </TableRow>
+    -->
+</TableLayout>

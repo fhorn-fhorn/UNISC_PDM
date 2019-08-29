@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/fale_com_a_prefeitura_background"/>
+    <foreground android:drawable="@mipmap/fale_com_a_prefeitura_foreground"/>
+</adaptive-icon>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula3Questao4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4ConsumoTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4ConsumoTotal"
+        />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4ConsumoTotal"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4ConsumoTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4CouvertArtistico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4CouvertArtistico"
+        />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4CouvertArtistico"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4CouvertArtistico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4DividirContaPor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4DividirContaPor"
+            />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4DividirContaPor"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4DividirContaPor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAula3Questao4Calcular"
+        android:textColor="@color/Aula3Questao4Preto"
+        android:background="@color/BtnAula3Questao4CalcularBackgroundColor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4TaxaDeServico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4TaxaDeServico"
+            />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4TaxaDeServico"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4TaxaDeServico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4ContaTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4ContaTotal"
+            />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4ContaTotal"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4ContaTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp" >
+        <TextView
+            android:id="@+id/txtViewAula3Questao4ValorPorPessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewAula3Questao4ValorPorPessoa"
+            />
+        <EditText
+            android:id="@+id/edtViewAula3Questao4ValorPorPessoa"
+            android:inputType="numberDecimal"
+            android:hint="@string/edtViewAula3Questao4ValorPorPessoa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/logo_balaio_de_lenha_foreground"
+        />
+
+</LinearLayout>

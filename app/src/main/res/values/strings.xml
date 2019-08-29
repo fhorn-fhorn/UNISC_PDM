@@ -22,6 +22,30 @@
     <string name="btnTextAula3Questao3">Questao 3</string>
     <string name="btnTextAula3Questao4">Questao 4</string>
 
+    <string name="ActiorBarTitleAula3Questao3">Quiz de trânsito</string>
+    <string name="txtViewAula3Questao3NroQuestao">Questão 11 de 28</string>
+    <string name="txtViewAula3Questao3Pergunta">Q11 - Qual o significado desta placa?</string>
+    <string name="btnTextAula3Questao3Resposta1">Ponte a frente</string>
+    <string name="btnTextAula3Questao3Resposta2">Estreitamento de pista</string>
+    <string name="btnTextAula3Questao3Resposta3">Declive acentuado</string>
+    <string name="btnTextAula3Questao3Resposta4">Redução de largura de veículos</string>
+    <string name="btnTextAula3Questao3ProximaPergunta">Próxima pergunta</string>
+
+    <string name="ActiorBarTitleAula3Questao4">BalaioDeLenha</string>
+    <string name="txtViewAula3Questao4ConsumoTotal">Consumo total R$:</string>
+    <string name="edtViewAula3Questao4ConsumoTotal">...</string>
+    <string name="txtViewAula3Questao4CouvertArtistico">Couvert artistico R$:</string>
+    <string name="edtViewAula3Questao4CouvertArtistico">...</string>
+    <string name="txtViewAula3Questao4DividirContaPor">Dividir conta por:</string>
+    <string name="edtViewAula3Questao4DividirContaPor">...</string>
+    <string name="btnAula3Questao4Calcular">Calcular conta final</string>
+    <string name="txtViewAula3Questao4TaxaDeServico">Taxa de Serviço (10%) R$:</string>
+    <string name="edtViewAula3Questao4TaxaDeServico">...</string>
+    <string name="txtViewAula3Questao4ContaTotal">Conta total R$:</string>
+    <string name="edtViewAula3Questao4ContaTotal">...</string>
+    <string name="txtViewAula3Questao4ValorPorPessoa">Valor por pessoa R$:</string>
+    <string name="edtViewAula3Questao4ValorPorPessoa">...</string>
+
     <string name="btnTextAula4">Aula 4</string>
     <string name="btnAula4Contatos">CONTATOS</string>
     <string name="btnAula4Contatos2">CONTATOS 2</string>

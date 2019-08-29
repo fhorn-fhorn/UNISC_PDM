@@ -20,11 +20,17 @@ public class Aula3MainActivity extends AppCompatActivity {
     }
 
     public void btnAula3Questao2Click(View view) {
+        Intent intent= new Intent(Aula3MainActivity.this, Aula3Questao2Activity.class);
+        startActivity(intent);
     }
 
     public void btnAula3Questao3Click(View view) {
+        Intent intent= new Intent(Aula3MainActivity.this, Aula3Questao3MainActivity.class);
+        startActivity(intent);
     }
 
     public void btnAula3Questao4Click(View view) {
+        Intent intent= new Intent(Aula3MainActivity.this, Aula3Questao4Activity.class);
+        startActivity(intent);
     }
 }

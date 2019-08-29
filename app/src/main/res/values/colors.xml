@@ -8,4 +8,17 @@
     <color name="BtnAula3Questao1TaxaTextColor">#000000</color>
     <color name="BtnAula3Questao1TaxaBackgroundColor">#0000FF</color>
 
+    <color name="Aula3Questao2Azul">#0000FF</color>
+    <color name="Aula3Questao2Vermelho">#FF0000</color>
+    <color name="Aula3Questao2Verde">#00FF00</color>
+
+    <color name="Aula3Questao3Verde">#00FF00</color>
+    <color name="Aula3Questao3Preto">#000000</color>
+    <color name="Aula3Questao3Cinza">#C0C0C0</color>
+
+    <color name="Aula3Questao4Preto">#000000</color>
+    <color name="BtnAula3Questao4CalcularBackgroundColor">#C0C0C0</color>
+
+
+
 </resources>
