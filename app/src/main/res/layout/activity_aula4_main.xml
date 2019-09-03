@@ -26,9 +26,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnAula4Call"
-        android:id="@+id/btnAula4Call"
-        android:onClick="btnAula4CallClick"
+        android:text= "CALL (ACTION_CALL)"
+        android:id="@+id/btnAula4CallActionCall"
+        android:onClick="btnAula4CallActionCallClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "CALL (ACTION_DIAL)"
+        android:id="@+id/btnAula4CallActionDial"
+        android:onClick="btnAula4CallActionDialClick"
         />
 
     <Button
