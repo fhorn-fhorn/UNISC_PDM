@@ -40,6 +40,13 @@
         android:onClick="btnAula4Click"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aula 6"
+        android:id="@+id/btnAula6"
+        android:onClick="btnAula6Click"
+        />
     <!--
     <TextView
         android:layout_width="wrap_content"

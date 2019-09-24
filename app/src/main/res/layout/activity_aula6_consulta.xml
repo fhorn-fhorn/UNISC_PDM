@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula6ConsultaActivity">
+
+    <TextView
+        android:id="@+id/aula6ConsultaTxtViewNomePessoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da pessoa"
+        android:textColor="#000000"
+        android:background="#FFFF00"
+        android:textSize="48sp"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/aula6ConsultaSpinnerEstados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:background="#0000FF"
+        android:textSize="48sp"
+        android:layout_marginTop="2sp"
+        android:spinnerMode="dropdown"
+        android:gravity="end"
+        android:textAlignment="viewEnd" />
+
+    <ListView
+        android:id="@+id/aula6ConsultaListViewCidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
