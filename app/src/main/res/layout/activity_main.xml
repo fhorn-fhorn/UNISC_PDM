@@ -47,6 +47,15 @@
         android:id="@+id/btnAula6"
         android:onClick="btnAula6Click"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aula 7"
+        android:id="@+id/btnAula7"
+        android:onClick="btnAula7Click"
+        />
+
     <!--
     <TextView
         android:layout_width="wrap_content"

@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Aula6ConsultaActivity"></activity>
+        <activity android:name=".Aula7SpinnerActivity"></activity>
+        <activity android:name=".Aula7ListActivity" />
+        <activity android:name=".Aula7MainActivity" />
+        <activity android:name=".Aula6ConsultaActivity" />
         <activity android:name=".Aula6ExemploActivity" />
         <activity android:name=".Aula6MainActivity" />
         <activity android:name=".Aula3Questao4Activity" />
