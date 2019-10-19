@@ -43,4 +43,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(MainActivity.this, Aula7MainActivity.class);
         startActivity(intent);
     }
+
+    public void btnAulaRevisaoProvaI(View view) {
+        Intent intent= new Intent(MainActivity.this, RevisaoProvaIMainActivity.class);
+        startActivity(intent);
+    }
+
+    public void btnDesafio(View view) {
+        Intent intent= new Intent(MainActivity.this, DesafioMainActivity.class);
+        startActivity(intent);
+    }
 }

@@ -57,5 +57,27 @@
     <string name="txtViewAula4NomeContato">Nome:</string>
     <string name="txtViewAula4TelefoneContato">Telefone:</string>
 
+    <string name="txtViewRevProvaI_Matricula">Matricula:</string>
+    <string name="edtTextRevProvaI_Matricula">Matricula...</string>
+    <string name="txtViewRevProvaI_Nome">Nome:</string>
+    <string name="edtTextRevProvaI_Nome">Nome...</string>
+    <string name="txtViewRevProvaI_Email">Email:</string>
+    <string name="edtTextRevProvaI_Email">Email...</string>
+    <string name="txtViewRevProvaI_Estado">Estado:</string>
+    <string name="txtViewRevProvaI_Cidade">Cidade:</string>
+    <string name="txtViewRevProvaI_Foto">Foto:</string>
+    <string name="btnRevProvaI_CaptutarFoto">Capturar</string>
+    <string name="btnRevProvaI_AdicionarAluno">Adicionar</string>
+
+    <string name="txtViewRevProvaI_DadosAluno_Matricula">Matricula</string>
+    <string name="txtViewRevProvaI_DadosAluno_Nome">Nome:</string>
+    <string name="txtViewRevProvaI_DadosAluno_Email">Email:</string>
+    <string name="txtViewRevProvaI_DadosAluno_Cidade">Cidade:</string>
+    <string name="txtViewRevProvaI_DadosAluno_Estado">Estado:</string>
+
+    <string name="txtViewDesafioExpressao">Expressão:</string>
+    <string name="edtTextDesafioOperador1">Ex. 1.5</string>
+    <string name="edtTextDesafioOperador2">Ex. 1.5</string>
+    <string name="txtViewDesafioResultado">Resultado:</string>
 
 </resources>
