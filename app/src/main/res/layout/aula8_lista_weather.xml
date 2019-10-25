@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtViewAula8Lista_DataHora"
+        android:text="DD-MMM-AAAA HH:NN"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3" >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="Temperatura: "
+                android:layout_weight="2"
+                />
+            <TextView
+                android:id="@+id/txtViewAula8Lista_Temperatura"
+                android:text="22.34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="5" >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="Umidade: "
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/txtViewAula8Lista_Umidade"
+                android:text="65.40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="3" >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="Ponto Orvalho: "
+                android:layout_weight="2"
+                />
+            <TextView
+                android:id="@+id/txtViewAula8Lista_PontoOrvalho"
+                android:text="19.56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="5" >
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:text="Pressão: "
+                android:layout_weight="3"
+                />
+            <TextView
+                android:id="@+id/txtViewAula8Lista_Pressao"
+                android:text="1011.70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

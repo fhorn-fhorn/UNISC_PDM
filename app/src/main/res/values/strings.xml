@@ -80,4 +80,17 @@
     <string name="edtTextDesafioOperador2">Ex. 1.5</string>
     <string name="txtViewDesafioResultado">Resultado:</string>
 
+    <string name="edtTextViewAula8InformeCEP">Informe CEP...</string>
+    <string name="btnAula8BuscarCEP">BUSCAR CEP</string>
+    <string name="txtViewAula8Logradouro">Logradouro...</string>
+    <string name="txtViewAula8Complemento">Complemento...</string>
+    <string name="txtViewAula8Bairro">Bairro...</string>
+    <string name="txtViewAula8Localidade">Localidade...</string>
+    <string name="txtViewAula8UF">UF...</string>
+    <string name="btnAula8ConsultaWeather">CONSULTA WEATHER</string>
+    <string name="txtViewAula8MediaTemperaturas">Média temperaturas:</string>
+    <string name="txtViewAula8MediaUmidades">Média umidades:</string>
+    <string name="txtViewAula8MediaPontosOrvalho">Média ponto orvalho:</string>
+    <string name="txtViewAula8MediaPressao">Média pressão:</string>
+
 </resources>

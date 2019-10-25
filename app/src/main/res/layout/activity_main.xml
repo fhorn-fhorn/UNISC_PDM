@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,53 +7,74 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnTextAula1"
-        android:id="@+id/btnAula1"
-        android:onClick="btnAula1Click"
-        />
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTextAula1"
+            android:id="@+id/btnAula1"
+            android:onClick="btnAula1Click"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTextAula2"
+            android:id="@+id/btnAula2"
+            android:onClick="btnAula2Click"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnTextAula2"
-        android:id="@+id/btnAula2"
-        android:onClick="btnAula2Click"
-        />
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTextAula3"
+            android:id="@+id/btnAula3"
+            android:onClick="btnAula3Click"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTextAula4"
+            android:id="@+id/btnAula4"
+            android:onClick="btnAula4Click"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btnTextAula3"
-        android:id="@+id/btnAula3"
-        android:onClick="btnAula3Click"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btnTextAula4"
-        android:id="@+id/btnAula4"
-        android:onClick="btnAula4Click"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aula 6"
-        android:id="@+id/btnAula6"
-        android:onClick="btnAula6Click"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aula 7"
-        android:id="@+id/btnAula7"
-        android:onClick="btnAula7Click"
-        />
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aula 6"
+            android:id="@+id/btnAula6"
+            android:onClick="btnAula6Click"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aula 7"
+            android:id="@+id/btnAula7"
+            android:onClick="btnAula7Click"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
     <Button
         android:layout_width="match_parent"
@@ -70,6 +90,14 @@
         android:text="Desafio"
         android:id="@+id/btnDesafio"
         android:onClick="btnDesafio"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aula 8"
+        android:id="@+id/btnAula8"
+        android:onClick="btnAula8Click"
         />
 
 </LinearLayout>

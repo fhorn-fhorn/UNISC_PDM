@@ -41,6 +41,9 @@ public class DesafioMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_desafio_main);
 
+        EditText edtResultado= findViewById(R.id.edtDesafioResultado);
+        edtResultado.setEnabled(false);
+
         //Spinner de operações
         spinnerOperacoes= findViewById(R.id.spnDesafioOperacoes);
         ArrayAdapter<String> adapterOperacoes= new ArrayAdapter<>(this,
