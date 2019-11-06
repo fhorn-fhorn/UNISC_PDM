@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Aula9UpdateDeleteActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtViewAula9UpdateDeleteModelo"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EdtViewAula9UpdateDeleteModelo"
+            android:id="@+id/EdtViewAula9UpdateDeleteModelo"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtViewAula9UpdateDeleteAno"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EdtViewAula9UpdateDeleteAno"
+            android:id="@+id/EdtViewAula9UpdateDeleteAno"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtViewAula9UpdateDeleteValor"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EdtViewAula9UpdateDeleteValor"
+            android:id="@+id/EdtViewAula9UpdateDeleteValor"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAula9UpdateDeleteExcluir"
+            android:id="@+id/btnAula9UpdateDeleteExcluir"
+            android:onClick="btnAula9UpdateDeleteExcluirOnClick"
+            android:layout_weight="1"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAula9UpdateDeleteAtualizar"
+            android:id="@+id/btnAula9UpdateDeleteAtualizar"
+            android:onClick="btnAula9UpdateDeleteAtualizarOnClick"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

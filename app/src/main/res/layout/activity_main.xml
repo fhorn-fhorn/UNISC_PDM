@@ -76,28 +76,50 @@
             />
     </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Revisão Prova I"
-        android:id="@+id/btnRevisaoProvaI"
-        android:onClick="btnAulaRevisaoProvaI"
-        />
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prova I"
+            android:id="@+id/btnRevisaoProvaI"
+            android:onClick="btnAulaRevisaoProvaI"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desafio"
+            android:id="@+id/btnDesafio"
+            android:onClick="btnDesafio"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Desafio"
-        android:id="@+id/btnDesafio"
-        android:onClick="btnDesafio"
-        />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Aula 8"
-        android:id="@+id/btnAula8"
-        android:onClick="btnAula8Click"
-        />
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aula 8"
+            android:id="@+id/btnAula8"
+            android:onClick="btnAula8Click"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aula 9"
+            android:id="@+id/btnAula9"
+            android:onClick="btnAula9Click"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
 
 </LinearLayout>

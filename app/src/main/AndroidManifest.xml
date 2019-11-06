@@ -14,7 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Aula8CEPActivity"></activity>
+        <activity android:name=".Aula9LoginActivity"></activity>
+        <activity android:name=".Aula9UpdateDeleteActivity" />
+        <activity android:name=".Aula9AddActivity" />
+        <activity android:name=".Aula9MainActivity" />
+        <activity android:name=".Aula8CEPActivity" />
         <activity android:name=".DesafioMainActivity" />
         <activity android:name=".RevisaoProvaIDadosAlunosActivity" />
         <activity android:name=".RevisaoProvaIMainActivity" />

@@ -93,4 +93,32 @@
     <string name="txtViewAula8MediaPontosOrvalho">Média ponto orvalho:</string>
     <string name="txtViewAula8MediaPressao">Média pressão:</string>
 
+    <string name="TxtViewAula9Ano">Ano:</string>
+    <string name="EdtViewAula9Ano">2018</string>
+    <string name="btnAula9Buscar">BUSCAR</string>
+    <string name="btnAula9Adicionar">ADICIONAR</string>
+
+    <string name="TxtViewAula9AddModelo">Modelo:</string>
+    <string name="EdtViewAula9AddModelo">Informe modelo...</string>
+    <string name="TxtViewAula9AddAno">Ano:</string>
+    <string name="EdtViewAula9AddAno">Informe ano...</string>
+    <string name="TxtViewAula9AddValor">Valor:</string>
+    <string name="EdtViewAula9AddValor">Informe valor...</string>
+    <string name="btnAula9AddSalvar">SALVAR</string>
+
+    <string name="TxtViewAula9UpdateDeleteModelo">Modelo:</string>
+    <string name="EdtViewAula9UpdateDeleteModelo">Informe modelo...</string>
+    <string name="TxtViewAula9UpdateDeleteAno">Ano:</string>
+    <string name="EdtViewAula9UpdateDeleteAno">Informe ano...</string>
+    <string name="TxtViewAula9UpdateDeleteValor">Valor:</string>
+    <string name="EdtViewAula9UpdateDeleteValor">Informe valor...</string>
+    <string name="btnAula9UpdateDeleteExcluir">EXCLUIR</string>
+    <string name="btnAula9UpdateDeleteAtualizar">ATUALIZAR</string>
+
+    <string name="txtViewAula9LoginUsuario">Usuário:</string>
+    <string name="edtTextAula9LoginUsuario">Informe usuário...</string>
+    <string name="txtViewAula9LoginSenha">Senha:</string>
+    <string name="edtTextAula9LoginSenha">Informe senha...</string>
+    <string name="btnAula9Login">LOGIN</string>
+
 </resources>

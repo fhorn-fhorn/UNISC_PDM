@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/txtViewAula9Listagem_Modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modelo: HONDA CRV"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:id="@+id/txtViewAula9Listagem_Valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 00.0000,00"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txtViewAula9Listagem_Ano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ano: 2018"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txtViewAula9Listagem_Id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: 1"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
