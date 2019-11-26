@@ -168,7 +168,7 @@ class HttpAsyncTask_Weather extends AsyncTask<String, Integer, String>{
     @Override
     protected String doInBackground(String... params){
         try {
-            URL url= new URL("http://ghelfer.net/la/weather.json");
+            URL url= new URL("https://ghelfer.net/la/weather.json");
             HttpURLConnection urlConnection= (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("GET");
             int status= urlConnection.getResponseCode();

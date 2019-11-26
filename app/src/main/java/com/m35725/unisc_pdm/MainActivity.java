@@ -77,4 +77,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     }
+
+    public void btnAula10Click(View view) {
+
+    }
+
+    public void btnAula11Click(View view) {
+    }
 }
